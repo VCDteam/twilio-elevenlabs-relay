@@ -43,8 +43,3 @@ wss.on('connection', (twilioSocket) => {
 server.listen(3000, () => {
   console.log('✅ Relay server running on port 3000');
 });
-
-
-server.listen(3000, () => {
-  console.log('✅ WebSocket server running on port 3000');
-});
