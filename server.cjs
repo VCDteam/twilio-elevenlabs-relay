@@ -3,7 +3,7 @@ const express = require("express");
 const http = require("http");
 
 // 🔐 Hardcoded credentials (you can switch to env vars later)
-const ELEVEN_API_KEY = 'sk_a7d07e0c9661c66039cb069b7dd1330e845ad1f375f71335';
+const ELEVEN_API_KEY = 'sk_37811e1fc04d5f38b01e1d77e10ed624977c67839fac4814';
 const AGENT_ID = 'agent_01jzvw8mpffffb0bbf2gsqnfps';
 
 const app = express();
