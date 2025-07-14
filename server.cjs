@@ -4,6 +4,8 @@ const http = require("http");
 
 const ELEVEN_API_KEY = process.env.ELEVEN_API_KEY;
 const AGENT_ID = process.env.ELEVEN_AGENT_ID;
+console.log("🔑 ELEVEN_API_KEY:", ELEVEN_API_KEY ? "✅ LOADED" : "❌ MISSING");
+console.log("🧠 AGENT_ID:", AGENT_ID ? `✅ ${AGENT_ID}` : "❌ MISSING");
 
 const app = express();
 const server = http.createServer(app);
