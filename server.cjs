@@ -3,8 +3,8 @@ const express = require("express");
 const http = require("http");
 
 // 🔐 Hardcoded credentials (you can switch to env vars later)
-const ELEVEN_API_KEY = process.env.ELEVEN_API_KEY;
-const AGENT_ID = process.env.ELEVEN_AGENT_ID;
+const ELEVEN_API_KEY = 'sk_37811e1fc04d5f38b01e1d77e10ed624977c67839fac4814’;
+const AGENT_ID = 'agent_01jzvw8mpffffb0bbf2gsqnfps';
 
 const app = express();
 const server = http.createServer(app);
